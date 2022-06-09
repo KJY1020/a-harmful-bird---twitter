@@ -7,7 +7,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>yee</h1>
       <Sidebar />
       <Feed />
       <Widgets />
