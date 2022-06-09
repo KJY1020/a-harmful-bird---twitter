@@ -1,6 +1,6 @@
 .sidebarOption {
     display: flex;
-    align-items: flex;
+    align-items: center;
     cursor: pointer;
 }
 
