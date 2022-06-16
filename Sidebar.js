@@ -17,17 +17,17 @@ function Sidebar() {
     <div className="sidebar">
       <TwitterIcon className="sidebar__twitterIcon" />
 
-      <SidebarOption active Icon={HomeIcon} text="Home" />
-      <SidebarOption Icon={SearchIcon} text="Explore" />
-      <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
-      <SidebarOption Icon={MailOutlineIcon} text="Messages" />
-      <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
-      <SidebarOption Icon={ListAltIcon} text="Lists" />
-      <SidebarOption Icon={PermIdentityIcon} text="Profile" />
-      <SidebarOption Icon={MoreHorizIcon} text="More" />
+      <SidebarOption active Icon={HomeIcon} text="홈" />
+      <SidebarOption Icon={SearchIcon} text="탐색하기" />
+      <SidebarOption Icon={NotificationsNoneIcon} text="알림" />
+      <SidebarOption Icon={MailOutlineIcon} text="쪽지" />
+      <SidebarOption Icon={BookmarkBorderIcon} text="북마크" />
+      <SidebarOption Icon={ListAltIcon} text="리스트" />
+      <SidebarOption Icon={PermIdentityIcon} text="프로필" />
+      <SidebarOption Icon={MoreHorizIcon} text="더 보기" />
 
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Tweet
+        트윗하기
       </Button>
     </div>
   );

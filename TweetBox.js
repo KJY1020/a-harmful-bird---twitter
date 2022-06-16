@@ -6,6 +6,7 @@ import db from "./firebase";
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
   const [tweetImage, setTweetImage] = useState("");
+
   const sendTweet = (e) => {
     e.preventDefault();
 
@@ -31,7 +32,7 @@ function TweetBox() {
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
-            placeholder="What's happening?"
+            placeholder="무슨 일이 일어나고 있나요?"
             type="text"
           />
         </div>
